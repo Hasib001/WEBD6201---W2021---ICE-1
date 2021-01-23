@@ -30,12 +30,6 @@
         //step 4. Add/Insert the element
         mainContent.appendChild(newParagraph);
 
-        newParagraph.className="fs-6";
-
-        //let paragraphThree = `<p class="fs-7 fw-bold"> this is the third paragraph</p>`;
-
-        //mainContent.innerHTML=paragraphThree;
-
 
 
 
