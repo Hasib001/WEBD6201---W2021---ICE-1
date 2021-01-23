@@ -1,0 +1,25 @@
+{
+  "name": "webd6201-w2021-lab1",
+  "version": "1.0.0",
+  "description": "demo site for lab 1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hasib001/WEBD6201---W2021---ICE-1.git"
+  },
+  "author": "S M Hasibur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hasib001/WEBD6201---W2021---ICE-1/issues"
+  },
+  "homepage": "https://github.com/Hasib001/WEBD6201---W2021---ICE-1#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1"
+  }
+}
