@@ -51,14 +51,7 @@
         //paragraphOneElement.remove();
 
         //update
-        //mainContent.firstElementChild.textContent = "welcome home!";
-
-        mainContent.innerHTML = 
-        `<h1 id="firstHeading" >Welcome to WEBD6201 - Lab1 </h1>
-        <p id="paragraphOne">This is paragraph one</p>
-        `
-        
-
+        mainContent.firstChild.textContent = "welcome home";
 
 
 

@@ -28,39 +28,20 @@
         let mainContent = document.getElementsByTagName("main")[0];
             
         //step 4. Add/Insert the element
-        mainContent.appendChild(newParagraph);
+       // mainContent.appendChild(newParagraph);
 
-        newParagraph.className="fs-6";
+        //newParagraph.className="fs-6";
 
-       
+        //let paragraphThree = `<p class="fs-7 fw-bold"> this is the third paragraph</p>`;
 
-       
+        //mainContent.innerHTML=paragraphThree;
         let paragraphDiv = document.createElement('div');
-        let paragraphThree = '<p id="paragraphThree" class="fs-7 fw-bold">this is third paragraph</P>';
-         paragraphDiv.innerHTML=paragraphThree;
+        let paragraph3 = '<p id="paragraphThree" class="fs-7 fw-bold">this is third paragraph</P>'
+        let paragraphDiv.innerHTML=paragraphThree;
 
 
-        //insertion before paragraph
-        //newParagraph.before(paragraphDiv);
-
-
-        //insertion after
-        newParagraph.after(paragraphDiv);
-
-        //deletion
-        //paragraphOneElement.remove();
-
-        //update
-        //mainContent.firstElementChild.textContent = "welcome home!";
-
-        mainContent.innerHTML = 
-        `<h1 id="firstHeading" >Welcome to WEBD6201 - Lab1 </h1>
-        <p id="paragraphOne">This is paragraph one</p>
-        `
-        
-
-
-
+        //insertion
+       // newParagraph.before(paragraphDiv);
 
 
 
